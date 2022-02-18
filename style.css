@@ -1,0 +1,122 @@
+body{
+    background-color:white;
+    
+   
+}
+nav{
+    background-color: black;
+    padding: 40px;
+    
+    
+}
+h1{ 
+    background-color: rgb(221, 18, 18);
+    text-align: center;
+    color:white;
+    border-radius: 13px;
+    min-width: 300px;
+    max-width: 1390px;
+    
+}
+h2{
+    background-color: rgb(221, 18, 18);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+div{
+    display: inline-block;
+}
+.imagem-1{
+   margin-top: 50px;
+}
+.imagem-2{
+    margin-left: 15px;
+}
+p{
+    background-color: black;
+    color: white;
+    
+}
+.pdif{
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.comprar-2{
+    margin-left: 15px;
+    background-color: rgb(13, 163, 13);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: inset;
+}
+button{
+    width: 200px;
+}
+input{
+    border-radius: 15px;
+    width: 350px;
+    padding: 5px;
+    background-color: red;
+    color:white;
+    margin-left: 73%;
+    margin-top: 0;
+}
+.comprar-1{ 
+    background-color: rgb(13, 163, 13);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+    margin-left: 3px;
+}
+.imagem-3{
+    margin-left: 15px;
+    
+}
+.pdif-2{
+    margin-left: 15px;
+    border-radius: 5px;
+    
+}
+.imagem-4{
+    margin-left: 15px;
+    height: 200px;
+}
+.imagem-5{
+    margin-left: 15px;
+}
+.imagem-6{
+    margin-left: 15px;
+}
+ul{
+    
+    color: white;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+
+}
+ul li {
+    position: relative;
+}
+li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    background:rgb(221, 18, 18) ;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.rodape{
+    color: black;
+    background-color: rgb(221, 18, 18);
+    text-align: center;
+}
