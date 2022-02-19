@@ -11,6 +11,7 @@
     <main>
         <h1>
             Eletropix
+            
         </h1>
     </main>
     
@@ -59,6 +60,84 @@
             <p class="pdif-2">IpadPro 12<br> POR APENAS R$3300 <br>ou <br> 10x de 330 sem juros</p>
             <button class="comprar-2">Comprar</button>
         </div>
+        <div>
+            <img class="imagem-1" src="monitorgamer.jpg" width ="200px" alt="monitor de computador"> <br> 
+            <p class="pdif"> Monitor Gamer LG <br> POR APENAS R$4000 <br>ou <br> 10x de 400 sem juros</p>
+            <button class="comprar-1">Comprar</button>
+        </div>
+        <div>
+            <img class="imagem-2"src="hyperxgamer.jpg" width="200px" height = "200px"alt="microfone">
+            <p class="pdif">Microfone Hyper X<br> POR APENAS R$1000 <br>ou <br> 10x de 100 sem juros</p>
+            <button class="comprar-2">Comprar</button>
+        </div>
+        <div>
+            <img class = "imagem-3" src="cadeiragamer.jpg" width ="200px" alt="cadeira gamer"><br> 
+            <p class="pdif-2">Cadeira Gamer <br> POR APENAS R$1500 <br>ou <br> 10x de 150 sem juros</p>
+            <button class="comprar-2">Comprar</button>
+        </div>
+        <div>
+            <img class="imagem-4" src="macbookcair.jpg" width="200px" alt="notebook apple"><br>
+            <p class="pdif-2">Macbook air Pro <br> POR APENAS R$6000 <br>ou <br> 10x de 600 sem juros</p>
+            <button class="comprar-2">Comprar</button>
+        </div>
+        <div>
+            <img class="imagem-5" src="mouse.jpg" width="200px" alt="mouse gamer"><br>
+            <p class="pdif-2">Mouse Gamer <br> POR APENAS R$400 <br>ou <br> 10x de 400 sem juros</p>
+            <button class="comprar-2">Comprar</button>
+        </div> 
+        <div>
+            <img class= "imagem-6"src="cpugamer.jpg" width="200px" height ="200px" alt="cpu computador"><br>
+            <p class="pdif-2">CPU Gamer Intel<br> POR APENAS R$3300 <br>ou <br> 10x de 330 sem juros</p>
+            <button class="comprar-2">Comprar</button>
+        </div>
+        <main>
+            <h3>
+              Quer ficar por dentro das melhores ofertas do mercado? Então cadastre seu e-mail aqui 👇: 
+              <input type="email" value="Digite seu e-mail" id="emailmarke">
+            </h3>
+            <div>
+                <img class="imagem-4" src="macbookcair.jpg" width="200px" alt="notebook apple"><br>
+                <p class="pdif-2">Macbook air Pro <br> POR APENAS R$6000 <br>ou <br> 10x de 600 sem juros</p>
+                <button class="comprar-2">Comprar</button>
+            </div>
+            <div>
+                <img class="imagem-5" src="mouse.jpg" width="200px" alt="mouse gamer"><br>
+                <p class="pdif-2">Mouse Gamer <br> POR APENAS R$400 <br>ou <br> 10x de 400 sem juros</p>
+                <button class="comprar-2">Comprar</button>
+            </div> 
+            <div>
+                <img class= "imagem-6"src="cpugamer.jpg" width="200px" height ="200px" alt="cpu computador"><br>
+                <p class="pdif-2">CPU Gamer Intel<br> POR APENAS R$3300 <br>ou <br> 10x de 330 sem juros</p>
+                <button class="comprar-2">Comprar</button>
+            </div>
+            <div>
+                <img class="imagem-1" src="monitorgamer.jpg" width ="200px" alt="monitor de computador"> <br> 
+                <p class="pdif"> Monitor Gamer LG <br> POR APENAS R$4000 <br>ou <br> 10x de 400 sem juros</p>
+                <button class="comprar-1">Comprar</button>
+            </div>
+            <div>
+                <img class="imagem-2"src="hyperxgamer.jpg" width="200px" height = "200px"alt="microfone">
+                <p class="pdif">Microfone Hyper X<br> POR APENAS R$1000 <br>ou <br> 10x de 100 sem juros</p>
+                <button class="comprar-2">Comprar</button>
+            </div>
+            <div>
+                <img class = "imagem-3" src="cadeiragamer.jpg" width ="200px" alt="cadeira gamer"><br> 
+                <p class="pdif-2">Cadeira Gamer <br> POR APENAS R$1500 <br>ou <br> 10x de 150 sem juros</p>
+                <button class="comprar-2">Comprar</button>
+            </div>
+
+          <h4>Sabendo que somos um site novo no mercado, gostaríamos do seu feedback! Preencha:</h4>
+          <form action="">
+            <fieldset>
+
+             <p class="forma">Nome: <input type="text" id="name"></p>
+             <p class="forma">idade: <input type="number" id="idade"></p> 
+             <p class="forma">E-mail: <input type="email"></p>  
+             <p class="forma">O que você achou do site?<input class = "op" type="text"></p> <button class="enviar" id="enviar" onclick="clicar()">Enviar</button>
+           </form>
+            
+        </main>
+
         
     </header>
     <footer>
@@ -72,7 +151,10 @@
          var a = window.document.getElementById ('promo')
          a.style.color = 'white'
      }
-     
- </script>
+     function clicar(){
+         var a = window.document.getElementById ('enviar')
+         window.alert ('Obrigado por colaborar conosco')
+     }
+</script>
 </body>
 </html>
